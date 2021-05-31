@@ -167,114 +167,46 @@
   <!-- Content Wrapper. Contains page content -->
   <div class="content-wrapper">
     <section class="content">
-        <div class="content "> 
-                   <!-- Main content -->
-
-          <div class="card mt-5">
-            <div class="card-header bg-green">
-              <h3 class="card-title text-white font-weight">Liste des sujets proposés</h3>
-            </div>
-            <!-- /.card-header -->
-            <div class="card-body">
-              <table class="table table-bordered">
-                <thead>
-                  <tr>
-                    <th style="width: 10px">Intitilué</th>
-                    <th style="width: 50px">Domaine</th>
-                    <th style="width: 80px">Difféculté </th>
-                    <th style="width: 40px;">Déscription</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td>Titre 1.</td>
-                    <td>Domaine1</td>
-                    <td>
-                 Def1
-                    </td>
-                    <td>
-                      <!-- Button trigger modal -->
-                      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#proposition1">
-                        Voir plus ...
-                      </button>
-
-                      <!-- Modal -->
-                      <div class="modal fade" id="proposition1" tabindex="-1" role="dialog"
-                        aria-labelledby="exampleModalLabel" aria-hidden="true">
-                        <div class="modal-dialog" role="document">
-                          <div class="modal-content">
-                            <div class="modal-header">
-                              <h5 class="modal-title" id="exampleModalLabel">Description</h5>
-                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                <span aria-hidden="true">&times;</span>
-                              </button>
-                            </div>
-                            <div class="modal-body">
-                             Description....
-                            </div>
-                            <div class="modal-footer">
-                              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                           
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>TItre 2</td>
-                    <td>Domaine2</td>
-                    <td>
-                      def2
-                    </td>
-                    <td>
-                      <!-- Button trigger modal -->
-                      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#proposition2">
-                        Voir plus ...
-                      </button>
-
-                      <!-- Modal -->
-                      <div class="modal fade" id="proposition2" tabindex="-1" role="dialog"
-                        aria-labelledby="exampleModalLabel" aria-hidden="true">
-                        <div class="modal-dialog" role="document">
-                          <div class="modal-content">
-                            <div class="modal-header">
-                              <h5 class="modal-title" id="exampleModalLabel">Description</h5>
-                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                <span aria-hidden="true">&times;</span>
-                              </button>
-                            </div>
-                            <div class="modal-body">
-                             Decription.....
-                            </div>
-                            <div class="modal-footer">
-                              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                              
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-
-                    </td>
-                  </tr>
-               
-                </tbody>
-              </table>
-            </div>
-            <!-- /.card-body -->
-            <div class="card-footer clearfix">
-              <ul class="pagination pagination-sm m-0 float-right">
-                <li class="page-item"><a class="page-link" href="#">«</a></li>
-                <li class="page-item"><a class="page-link" href="#">1</a></li>
-                <li class="page-item"><a class="page-link" href="#">2</a></li>
-                <li class="page-item"><a class="page-link" href="#">3</a></li>
-                <li class="page-item"><a class="page-link" href="#">»</a></li>
-              </ul>
-            </div>
-          </div>
+      <div class="container-fluid">
+        <div class="content-header">
+          <div class="container-fluid">
+            <div class="row mb-2">
+              <div class="col-sm-6">
+                <h1 class="m-0 text-dark">Liste des sujets</h1>
+              </div>
+            </div><!-- /.row -->
+          </div><!-- /.container-fluid -->
         </div>
-          
+        <!-- Small boxes (Stat box) -->
+        <div class="row">
+            <div class="col-lg-4 col-6 p-2 ">
+                <div class="card">
+                <div class="card-header">
+                   Sujet num : 01
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title mb-2">
+                        <strong>Intitilue :  </strong>
+                       titre..
+                    </h5>
+                   
+                  <p class="card-text">
+                    <p><strong> Domaine : </strong> domain</p>
+                    <p><strong> Difféculté : </strong> 8/10</p>
+                    <p><strong> Déscription : </strong> description...</p>
+                   
+                                          
+                  </p>
+              
+              
+                <a class="btn btn-danger btn-sm" href="#">
+                    <i class="fas fa-trash">
+                    </i>
+                    Supprimer
+                </a>
+                </div>
+              </div>
+            </div>
     </section>
   </div>  
   <footer class="main-footer">
