@@ -341,11 +341,12 @@ text-align:center;
 }
 .abt{
   display: flex;
-align-items:cente ;
+align-items:center ;
 justify-content: center;
 }
 .contact{
   position: relative;
+  height: 30%;
 }
 .cont{
   position: absolute;
@@ -354,6 +355,8 @@ justify-content: center;
 width:25%;
   background:#302f2f;
 padding:2em;
+margin-top: 80px;
+border-radius: 10px;
 }
 .cont h3{
   font-size:1.5em;

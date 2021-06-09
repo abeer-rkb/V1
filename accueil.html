@@ -48,8 +48,8 @@
             <button id="show-side-bar"
                 class="md:hidden nav-link absolute left-4 top-3 w-10 h-10 outline-none text-lg border-none"><i
                     class="fas fa-align-left"></i></button>
-            <a class="navbar-brand flex items-center" href="#">
-                <img src="./images/logo.png" alt="logo" class="hidden md:block w-10 h-10">
+            <a class="navbar-brand flex items-center hover:text-green-400 " href="#">
+                <img src="./images/logo.png" alt="logo" class="hidden md:block w-10 h-10" >
                 <span class="ml-2 font-semibold">Le Guide Du Master</span>
             </a>
             <button class="nav-link md:hidden absolute right-6 top-3 w-10 h-10 text-lg" href="#"><i
@@ -76,8 +76,8 @@
                         <span>Contact</span>
                     </a>
                 </li>
-                <li class="nav-item ml-3 mt-2">
-                    <a href="login.html">
+                <li class="nav-item ml-3 mt-2 ">
+                    <a href="login.html" class="hover:text-green-400">
                         <i class="icon fas fa-sign-in-alt"></i>
                         <span>Connecter</span>
                     </a>
@@ -105,8 +105,8 @@
         </div>
     </div>
         <!-- hna thati el page content ta3ak  -->
-        <div class="h-screen" style="height: 85vh;">
-            <div class="wthree-main-content">
+        <div class="h-screen" style="height: 85vh; padding:5em 0;">
+            <div class="wthree-main-content ">
                 <!-- About-page -->
                 <div class="container" id="about">
 
@@ -196,49 +196,56 @@
             </div>
         </div>
 
-        <footer class="text-white bg-black  body-font ">
+        <footer class="footer bg-black relative pt-1 border-b-2 border-blue-700" >
             <div
-                class="container flex flex-col flex-wrap  px-11 py-2 md:px-5 mx-auto md:items-center lg:items-start md:flex-row md:flex-no-wrap ">
+                class="container flex flex-col flex-wrap  px-11 py-2 md:px-5 mx-auto md:items-center lg:items-start md:flex-row md:flex-no-wrap">
+    
                 <div class="flex flex-wrap flex-grow mt-8 -mb-10 text-left md:py-5 md:mt-0 ">
-                    <div class="w-full px-0 lg:w-1/4 md:w-1/2">
-                        <h1 class="mb-3 text-sm font-semibold tracking-widest text-white uppercase title-font">
-                            Liens Utiles
-                        </h1>
+                <div class="mt-8 sm:mt-0 sm:w-full sm:px-8 flex flex-col md:flex-row justify-between ">
+                    <div class="flex flex-col">
+                        <span class="font-bold text-white title-font uppercase mt-4 md:mt-0 mb-2 tracking-widest ">Liens
+                            utiles</span>
+    
                         <nav class="mb-10 ">
                             <li>
-                                <a class="text-sm text-gray-400 hover:text-gray-500 cursor-pointer" href="https://www.techniques-ingenieur.fr/">Technique de
+                                <a class="text-sm text-gray-400 hover:text-gray-500 cursor-pointer"
+                                    href="https://www.techniques-ingenieur.fr/">Technique de
                                     l'Ingenieur (TI)</a>
                             </li>
                             <li>
-                                <a href="http://atrssh.dz/" class="text-sm text-gray-400 hover:text-gray-500 cursor-pointer"> Agence Thématique de Recherche en Sciences Sociales et Humaines</a>
+                                <a href="http://atrssh.dz/"
+                                    class="text-sm text-gray-400 hover:text-gray-500 cursor-pointer">Agence Thématique de
+                                    Recherche en Sciences Sociales et Humaines</a>
                             </li>
                             <li>
-                                <a href="https://www.wdl.org/fr/" class="text-sm text-gray-400 hover:text-gray-500 cursor-pointer">Bibliothèque Numérique Mondiale (BNM)</a>
+                                <a href="https://www.wdl.org/fr/"
+                                    class="text-sm text-gray-400 hover:text-gray-500 cursor-pointer">Agence Thématique de
+                                    Bibliothèque Numérique Mondiale (BNM)</a>
                             </li>
-                           
+    
                         </nav>
                     </div>
-                    <div class="w-full px-0 lg:w-1/4 md:w-1/2">
-                        <h1 class="mb-3 text-sm font-semibold tracking-widest text-white uppercase title-font">
-                           Autres Liens
-                        </h1>
+                    <div class="flex flex-col">
+                        <span class="font-bold text-white title-font uppercase mt-4 md:mt-0 mb-2 tracking-widest ">Autres
+                           liens</span>
+    
                         <nav class="mb-10">
                             <li>
-                                <a class="text-sm text-gray-400 hover:text-gray-500 cursor-pointer" href="https://www.univ-constantine2.dz">Universiré Abdlehamid Mehri</a>
+                                <a class="text-sm text-gray-400 hover:text-gray-500 cursor-pointer"
+                                    href="https://www.univ-constantine2.dz">Universiré Abdlehamid Mehri</a>
                             </li>
                             <li>
-                                <a href="https://elearning.univ-constantine2.dz/elearning/course/index.php?categoryid=7" class="text-sm text-gray-400 hover:text-gray-500 cursor-pointer">Plate-Forme E-learning</a>
+                                <a href="https://elearning.univ-constantine2.dz/elearning/course/index.php?categoryid=7"
+                                    class="text-sm text-gray-400 hover:text-gray-500 cursor-pointer">Plate-Forme
+                                    E-learning</a>
                             </li>
-                          
+    
                         </nav>
                     </div>
-                  
-                    <div class="w-full px-0 lg:w-1/4 md:w-1/2">
-                        <h1 class="mb-3 text-sm font-semibold tracking-widest text-white uppercase title-font">
-                           Suivez nous
-                         </h1>
-                        <span class="inline-flex justify-center mt-2 ml-10  ">
-                            <a class="text-white cursor-pointer border rounded">
+                    <div class="flex flex-col">
+                        <span class="font-bold text-white title-font uppercase mt-4 md:mt-0 mb-2 tracking-widest ">suivez nous</span>
+                        <span class="inline-flex justify-center mt-2 ml-4 ">
+                            <a class="text-white cursor-pointer border rounded" href="#">
                                 <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                     class="w-5 h-5" viewBox="0 0 24 24">
                                     <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
@@ -247,24 +254,32 @@
                             
                         </span>
                     </div>
-                    <div class="w-full px-0 lg:w-1/4 md:w-1/2" >
-                        <h1 class="mb-3 text-sm font-semibold tracking-widest text-white uppercase title-font">
-                           Retrouvez nous sur Google Maps
-                          </h1>
-                        <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3217.7299460045506!2d6.567817614622891!3d36.24605360639658!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12f1655aaa0d63ab%3A0xa80cc72a9da3c77b!2sUniversite%20Constantine%202%20Abdelhamid%20Mehri!5e0!3m2!1sfr!2sdz!4v1622790430662!5m2!1sfr!2sdz" width="200" height="115" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    <div class="flex flex-col">
+                        <span class="font-bold text-white title-font uppercase mt-4 md:mt-0 mb-2 tracking-widest ">retrouvez nous 
+                            </span>
+    
+                        <nav class="mb-10">
+                            <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3217.7299460045506!2d6.567817614622891!3d36.24605360639658!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12f1655aaa0d63ab%3A0xa80cc72a9da3c77b!2sUniversite%20Constantine%202%20Abdelhamid%20Mehri!5e0!3m2!1sfr!2sdz!4v1622790430662!5m2!1sfr!2sdz" width="200" height="150" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    
+                        </nav>
+                    </div>
                     </div>
                 </div>
             </div>
-            <div class="" style="background: #222;">
-                <div class="container flex flex-col flex-wrap  py-6 mx-auto sm:flex-row">
-                    <p class="text-sm text-center text-gray-200 sm:text-left ">© Université Constantine2 2021-2022
-                    </p>
-                  
+            </div>
+            </div>
+            </div>
+            <div style="background-color: #222;;">
+                <div class="" style="background: #222;">
+                    <div class="container mt-16 flex flex-col flex-wrap  py-6 mx-auto sm:flex-row">
+                        <p class="text-sm text-center text-gray-200 sm:text-left ">© Université Constatntine2 A. Mehri 2021-2022
+                        </p>
+    
+                    </div>
                 </div>
             </div>
-          
+            </div>
         </footer>
-
 
 
 
